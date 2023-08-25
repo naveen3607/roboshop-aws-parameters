@@ -1,5 +1,6 @@
 resource "aws_ssm_parameter" "main" {
-  name  = var.parameters
-  type  = "String"
-  value = "bar"
+  for_each = var.parameters
+  name  = each.key
+  type  = each.value["type"]
+  value = each.value["value"]
 }
