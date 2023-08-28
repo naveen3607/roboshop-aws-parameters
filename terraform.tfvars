@@ -1,5 +1,6 @@
 parameters = {
   "docdb.dev.master_username" = { type = "String", value = "docdbadmin"}
+  "docdb.dev.endpoint" = { type = "String", value = "dev-docdb-cluster.cluster-c5ml06qoxz1b.us-east-1.docdb.amazonaws" }
   "rds.dev.master_username" = { type = "String", value = "rdsdevadmin"}
   "rds.dev.database_name" = { type = "String", value = "dummy"}
 
