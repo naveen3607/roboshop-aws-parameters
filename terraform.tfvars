@@ -16,10 +16,10 @@ parameters = {
 
   "payment.dev.amqp_host" = { type = "String", value = "rabbitmq-dev.naveen3607.online"}
   "payment.dev.amqp_user" = { type = "String", value = "roboshop"}
-  "payment.dev.amqp_password" = { type = "String", value = "roboshop1234"}
 
   #Usually passwords are not at all preferred to keep under git repo
   #In organizations, we always create passwords in manual way whomever have access
   "docdb.dev.master_password" = { type = "String", value = "roboshop1234"}
   "rds.dev.master_password" = { type = "String", value = "roboshop1234"}
+  "payment.dev.amqp_password" = { type = "String", value = "roboshop1234"}
 }
