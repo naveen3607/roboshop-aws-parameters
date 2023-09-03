@@ -9,6 +9,14 @@ parameters = {
   "cart.dev.catalogue_port" = { type = "String", value = "80"}
   "shipping.dev.cart_endpoint" = { type = "String", value = "cart-dev.naveen3607.online:80"}
   "shipping.dev.db_host" = { type = "String", value = "dev-mysql-rds-cluster.cluster-c5ml06qoxz1b.us-east-1.rds.amazonaws.com"}
+  "payment.dev.cart_host" = { type = "String", value = "cart-dev.naveen3607.online"}
+  "payment.dev.cart_port" = { type = "String", value = "80"}
+  "payment.dev.user_host" = { type = "String", value = "user-dev.naveen3607.online"}
+  "payment.dev.user_port" = { type = "String", value = "80"}
+
+  "payment.dev.amqp_host" = { type = "String", value = "rabbitmq-dev.naveen3607.online"}
+  "payment.dev.amqp_user" = { type = "String", value = "roboshop"}
+  "payment.dev.amqp_password" = { type = "String", value = "roboshop1234"}
 
   #Usually passwords are not at all preferred to keep under git repo
   #In organizations, we always create passwords in manual way whomever have access
