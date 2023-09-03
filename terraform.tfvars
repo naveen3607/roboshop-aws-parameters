@@ -7,7 +7,8 @@ parameters = {
   "cart.dev.redis_host" = { type = "String", value = "dev-redis-elasticache-cluster.0zm8ru.0001.use1.cache.amazonaws.com"}
   "cart.dev.catalogue_host" = { type = "String", value = "catalogue-dev.naveen3607.online"}
   "cart.dev.catalogue_port" = { type = "String", value = "80"}
-  "shipping.dev.cart_endpoint" = { type = "String", value = "cart-dev.naveen3607.online:8080"}
+  "shipping.dev.cart_endpoint" = { type = "String", value = "cart-dev.naveen3607.online:80"}
+  "shipping.dev.db_host" = { type = "String", value = "dev-mysql-rds-cluster.cluster-c5ml06qoxz1b.us-east-1.rds.amazonaws.com"}
 
   #Usually passwords are not at all preferred to keep under git repo
   #In organizations, we always create passwords in manual way whomever have access
