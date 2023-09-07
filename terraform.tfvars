@@ -19,8 +19,8 @@ parameters = {
   "dispatch.dev.amqp_host" = { type = "String", value = "rabbitmq-dev.naveen3607.online"}
   "dispatch.dev.amqp_user" = { type = "String", value = "roboshop"}
 
-  "elasticsearch_username" = { type = "String", value = "elastic" }
-  "elasticsearch_password" = { type = "SecureString", value = "h6CDF9uUpdqo1TOEpAEb" }
+  "elasticsearch.username" = { type = "String", value = "elastic" }
+  "elasticsearch.password" = { type = "SecureString", value = "h6CDF9uUpdqo1TOEpAEb" }
 
 
   #Usually passwords are not at all preferred to keep under git repo
