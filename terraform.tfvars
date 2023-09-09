@@ -20,7 +20,7 @@ parameters = {
   "dispatch.dev.amqp_user" = { type = "String", value = "roboshop"}
 
   "elasticsearch.username" = { type = "String", value = "elastic" }
-  "elasticsearch.password" = { type = "SecureString", value = "h6CDF9uUpdqo1TOEpAEb" }
+  "elasticsearch.password" = { type = "SecureString", value = "5a6mTlyjU-76eChxFHu1" }
 
 
   #Usually passwords are not at all preferred to keep under git repo
