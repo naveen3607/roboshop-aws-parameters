@@ -22,6 +22,8 @@ parameters = {
   "elasticsearch.username" = { type = "String", value = "elastic" }
   "elasticsearch.password" = { type = "SecureString", value = "5a6mTlyjU-76eChxFHu1" }
 
+  "sonarqube.username" = { type = "String", value = "admin" }
+  "sonarqube.password" = { type = "SecureString", value = "admin123" }
 
   #Usually passwords are not at all preferred to keep under git repo
   #In organizations, we always create passwords in manual way whomever have access
