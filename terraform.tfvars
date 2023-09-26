@@ -25,6 +25,9 @@ parameters = {
   "sonarqube.username" = { type = "String", value = "admin" }
   "sonarqube.password" = { type = "SecureString", value = "admin123" }
 
+  "nexus.username" = { type = "String", value = "admin" }
+  "nexus.password" = { type = "SecureString", value = "admin123" }
+
   #Usually passwords are not at all preferred to keep under git repo
   #In organizations, we always create passwords in manual way whomever have access
   "docdb.dev.master_password" = { type = "SecureString", value = "roboshop1234"}
