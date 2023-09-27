@@ -35,7 +35,7 @@ parameters = {
   "payment.dev.amqp_password" = { type = "SecureString", value = "roboshop123"}
   "dispatch.dev.amqp_password" = { type = "SecureString", value = "roboshop123"}
 
-  # App Versions
+  # AppVersions
   "payment.dev.appversion" = { type = "String", value = "1.0.0" }
   "user.dev.appversion" = { type = "String", value = "1.0.0" }
   "cart.dev.appversion" = { type = "String", value = "1.0.0" }
