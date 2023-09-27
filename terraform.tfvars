@@ -34,4 +34,13 @@ parameters = {
   "rds.dev.master_password" = { type = "SecureString", value = "roboshop1234"}
   "payment.dev.amqp_password" = { type = "SecureString", value = "roboshop123"}
   "dispatch.dev.amqp_password" = { type = "SecureString", value = "roboshop123"}
+
+  # App Versions
+  "payment.dev.appversion" = { type = "String", value = "1.0.0" }
+  "user.dev.appversion" = { type = "String", value = "1.0.0" }
+  "cart.dev.appversion" = { type = "String", value = "1.0.0" }
+  "catalogue.dev.appversion" = { type = "String", value = "1.0.0" }
+  "shipping.dev.appversion" = { type = "String", value = "1.0.0" }
+  "frontend.dev.appversion" = { type = "String", value = "1.0.0" }
+  "dispatch.dev.appversion" = { type = "String", value = "1.0.0" }
 }
