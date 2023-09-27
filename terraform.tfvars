@@ -27,6 +27,8 @@ parameters = {
 
   "nexus.username" = { type = "String", value = "admin" }
   "nexus.password" = { type = "SecureString", value = "admin123" }
+  "nexus.dev.username" = { type = "String", value = "admin" }
+  "nexus.dev.password" = { type = "SecureString", value = "admin123" }
 
   #Usually passwords are not at all preferred to keep under git repo
   #In organizations, we always create passwords in manual way whomever have access
