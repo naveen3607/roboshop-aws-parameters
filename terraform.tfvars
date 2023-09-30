@@ -39,10 +39,10 @@ parameters = {
 
   # AppVersions
   "payment.dev.appversion" = { type = "String", value = "1.0.0" }
-  "user.dev.appversion" = { type = "String", value = "1.0.0" }
-  "cart.dev.appversion" = { type = "String", value = "1.0.0" }
-  "catalogue.dev.appversion" = { type = "String", value = "1.0.0" }
-  "shipping.dev.appversion" = { type = "String", value = "1.0.0" }
+  "user.dev.appversion" = { type = "String", value = "1.0.1" }
+  "cart.dev.appversion" = { type = "String", value = "1.0.1" }
+  "catalogue.dev.appversion" = { type = "String", value = "1.0.1" }
+  "shipping.dev.appversion" = { type = "String", value = "1.0.1" }
   "frontend.dev.appversion" = { type = "String", value = "1.0.0" }
   "dispatch.dev.appversion" = { type = "String", value = "1.0.0" }
 }
