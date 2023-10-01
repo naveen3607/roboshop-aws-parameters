@@ -42,7 +42,7 @@ parameters = {
   "user.dev.appversion" = { type = "String", value = "1.0.2" }
   "cart.dev.appversion" = { type = "String", value = "1.0.1" }
   "catalogue.dev.appversion" = { type = "String", value = "1.0.1" }
-  "shipping.dev.appversion" = { type = "String", value = "1.0.1" }
+  "shipping.dev.appversion" = { type = "String", value = "1.0.2" }
   "frontend.dev.appversion" = { type = "String", value = "1.0.0" }
   "dispatch.dev.appversion" = { type = "String", value = "1.0.0" }
 }
